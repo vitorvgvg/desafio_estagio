@@ -1,0 +1,50 @@
+1 - Diferenciar as camadas 2 e 3 do modelo OSI, e indicar os protocolos utilizados para endereçamento nestas camadas.
+
+A camada 3 (REDES) é responsável por definir a rota em que os dados serão enviados. É nesta camada que é feito o endereçamento de IP da maquina de origem e destino.
+
+Alguns protocolos usados são: IP, IPV4, IPV6, ARP e ICMP.
+
+A camada 2 (ENLACE) é responsável por fazer a comunicação dentro da mesma rede local, desta forma os dados enviados podem ser tratados antes de serem enviados para os dispositivos conectados à rede local.
+
+Alguns protocolos usados são: Ethernet, IEEE 802.11 (Wi-Fi) e PPP.
+
+Então basicamente enquanto a Camada 2 trata da comunicação dentro da mesma rede local, utilizando endereços MAC, a Camada 3 lida com a comunicação entre redes diferentes, utilizando endereços IP e realizando funções de roteamento para garantir que os dados atinjam seu destino final, mesmo que este esteja em uma rede distinta.
+
+
+2 - Qual a diferença entre adotar uma solução proprietária como o sistema operacional Windows quando comparado a adoção de uma solução OpenSource como o sistema operacional Ubuntu? Quais seriam os pontos negativos e positivos de cada abordagem?
+
+A escolha entre uma solução proprietária como o Windows e uma solução OpenSource como o Ubuntu depende das necessidades específicas de uma organização. Fatores como custo, personalização, compatibilidade de software e preferências de interface de usuário são questões que devem ser consideras no momento da decisão de qual tipo de sistema será usado.
+
+No entanto os pontos positivos para cada uma das opções seriam...
+OpenSource: 
+
+•	Os custos, devido ser opensource grande parte das suas funcionalidades são gratuitas, o que diminuiria significativamente os gastos.
+•	Código aberto, o que permite a adequação e personalização de acordo a necessidade do projeto.
+
+
+Solução Proprietária:
+
+•	Facilidade para o uso, no caso do Windows, devido possuir uma interface amigável, facilita para muitos usuários.
+•	Compatibilidade, muitos aplicativos e softwares são desenvolvidos principalmente para Windows 
+
+E os pontos negativos seriam...
+
+OpenSource:
+
+•	A dificuldade de aprendizado, em alguns casos, devido aos usuários estarem familiarizados com outras plataformas, existe um fator que é demandar um período de adaptação.
+•	Compatibilidade, devido à grande parte dos softwares serem desenvolvidos para Windows, isso implica a emulação de alguns aplicativos.
+
+Solução Proprietária:
+
+•	Custos, devido ser uma plataforma de código fechado, grande parte de seus serviços e manutenções possuem um custo extra, a ser pago para que a empresa desenvolvedora solucione.
+•	Código fechado, isso de certa forma impede a personalização e ajustes para necessidades especificas.	 
+
+
+3 - O que seria um projeto OpenSource? Como empresas podem adotar tais tecnologias e o que isso acarreta?
+
+Um projeto OpenSource é uma solução desenvolvida com código aberto, onde a principal vantagem é a possibilidade de modificação do código para atividades especificas que o usuário necessitar.
+
+A maneira que em minha concepção, poderia ser adotado por empresas é:
+•	Aumentar a quebra da curva de aprendizado sobre esse tipo de sistema.
+•	Estimular o desenvolvimento de apps opensource, de maneira que se tornem maior parte do mercado.
+•	Adotar soluções em desenvolvimento de servidores exclusivos da própria empresa, diminuído custos com plataformas de código fechado.
